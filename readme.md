@@ -66,7 +66,7 @@ end
 Se pide:
 
 - Agregar un <u>método de instancia</u> llámado *lados* en ambas clases. El método debe imprimir un *string* con las medidas de los lados.
-- Crear un módulo llamado *Formula*. 
+- Crear un módulo llamado *Formula*.
 - Dentro del módulo *Formula* crear un método llamado *perimetro* que reciba dos argumentos (lados) y devuelva el perímetro.
 - Dentro del módulo *Formula* crear un método llamado *area* que reciba dos argumentos (lados) y devuelva el área.
 - Implementar -mediante *Mixin*- el módulo en las clases *Rectangulo* y *Cuadrado*.
@@ -95,7 +95,7 @@ Crear un archivo llamado *404.html* cuyo *body* contenga una etiqueta de título
 
 Modificar el archivo ***config.ru*** para adaptarlo a los siguientes requerimientos:
 
- - Si se ingresa a la url ***/index***: 
+ - Si se ingresa a la url ***/index***:
     - Agregar un código de respuesta ***200***.
     - Agregar en los *Response Headers* un *Content-type* de tipo *text/html*.
     - Agregar en el *Response Body* una etiqueta de título que contenga un texto *"Estás en el Index!"*.
